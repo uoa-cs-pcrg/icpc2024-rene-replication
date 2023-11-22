@@ -1,0 +1,340 @@
+participant_id,qualtrics_id,treatment,enrolment,education,programming_experience,language_confidence,pretest_q1,pretest_q1_mark,pretest_q2,pretest_q2_mark,pretest_q3,pretest_q3_mark,pretest_q4,pretest_q4_mark,pretest_q5,pretest_q5_mark,warmup-p2-time_Page Submit,warmup-p2-q1,warmup-p2-q2,warmup-p3-time_Page Submit,warmup-p3-q1,WarmupQ3mark,code_explanation,code_explanation_confidence,EPE1,EPE2,EPE3,EPE4,EPE5,EPE6,EPE7,EPE8,EPE9,EPE10,EPE11,code_reading_time,code_trace_q1_time,code_trace_q1,code_trace_q1_mark,code_trace_q2_time,code_trace_q2,code_trace_q2_mark,code_trace_q3_time,code_trace_q3,code_trace_q3_mark,code_trace_q4_time,code_trace_q4,code_trace_q4_mark,code_trace_q5_time,code_trace_q5,code_trace_q5_mark,code_trace_q6_time,code_trace_q6,code_trace_q6_mark,code_understanding_time,code_understanding,code_understanding_comment,code_compare_time,code_compare_preference,code_compare_comments,post-comments,Q_TotalDuration
+SFMF-Java-CS701-2023-0002,R_1i1XRZm4ABaaIqZ,WeatherSingle,COMPSCI 700,University courses only,MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,80.089,The code returns a double value of sum of the value of numbers in an array that are less than or equal to 10.0 divided by the number of numbers in the array that are less than or equal to 10.0,High,32.143,2,1,"The code is designed to show average rain fall, number of rainy days, and average humidity during a given time period.",HIGH,1,1,1,0,0,0,0,0,0,0,1,90.924,61.534,"[1, 1, 3]",1,14.318,"[0, 0, 0]",1,31.254,"[1, 1, 2]",1,26.157,"[ [0,-999], [0,0], [1,2] ]",1,26.536,21-26,1,NA,NA,NA,10.967,NEUTRAL,NA,148.693,MULTIPLE,"Personally, the difficulty in understanding the code arises from lack of modularisation. Modularisation and clear naming of each methods make processing of the code more efficient.",NA,903
+SFMF-Java-CS701-2023-0007,R_2cAWL1CsZs74YQM,WeatherSingle,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises)",LARGE,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,113.922,this program is used to compute the mean of the numbers in the Array that are lower than 10,High,29.537,2,1,Calculated the average precipitation and humidity for rainy days after removing invalid data,HIGH,1,1,0,0,0,1,0,0,0,0,1,216.889,53.817,"[1, 1, 3]",1,27.746,"[0, 0, 0]",1,30.952,"[1, 1, 2]",1,13.787,"[ [0,-999], [0,0], [1,2] ]",1,36.225,21-26,1,NA,NA,NA,12.324,VERY-EASY,NA,48.602,NEITHER,NA,NA,1011
+SFMF-Java-CS701-2023-0010,R_3J7XMEFwOtdjqWY,WeatherSingle,COMPSCI 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses)",SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,Unsure,0,30.46,Calculate the average of all numbers <=10 in a list.,High,35.197,2,1,"Calculate the average rainfall, average humidity, and number of rainy days over a given period. A day is rainy if it has nonzero rainfall. -999 is a sentinel value; other negative values are invalid and ignored.",HIGH,1,1,1,0,1,1,0,0,0,1,0,146.69,33.762,"[1, 1, 3]",1,22.401,"[0, 0, 0]",1,24.445,"[1, 1, 2]",1,16.093,"[ [0,-999], [0,0], [1,2] ]",1,16.091,21-26,1,NA,NA,NA,139.584,NEUTRAL,High-level idea makes sense but I still need to read all the code carefully to find quirks like validation for >= 0. Nested datatype List<List<Integer>> was hard to process but the naming of variables like dailyData help to break it down.,246.252,NEITHER,"v1 comments and v2 method names play the same role and are equally effective for a process like this one where all steps follow each other linearly. Still difficult to find nontrivial behaviour. I needed a few seconds to identify the main method in v2 because expected something like main, not processData (I now notice that v1 uses processData too; I didn't realise because I didn't even read the method name in v1!).",I did an earlier version of this study in 747.,1274
+SFMF-Java-CS701-2023-0018,R_3G96xZlJp5MSbIg,WeatherSingle,COMPSCI 700,Industry experience,TINY,LOW,A NullPointerException will be thrown,0,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,223.902,The program does have three functions. the sum function does sum of all the number in the array less or equal than 10 and count function counts how many numbers in the array less or equal to 10. The main function calculate the average of the number in the array which less or equal to 10 by using the sum(x)/count(x).,High,22.057,2,1,"The program does first read the data from the original data and remove all the invalid data from the original dataset. Then, it calculates the average rainforce and humanlity, and calculates the number of raining day by counting how many days have rainforce > 0. In the end, it returns these values into an single object.",HIGH,1,1,1,1,0,0,0,1,0,0,0,206.401,45.324,"[1, 1, 3]",1,53.119,"[0, 0, 0]",1,45.597,"[1, 1, 2]",1,114.406,"[ [0,-999], [0,0], [1,2] ]",1,30.918,21-26,1,NA,NA,NA,18.816,EASY,NA,66.786,NEITHER,NA,NA,1213
+SFMF-Java-CS701-2023-0021,R_3R3kB6nLc91Iyv0,WeatherSingle,COMPSCI 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises)",MEDIUM,HIGH,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,(nothing printed),0,111.762,"Given an int array, calculate the double average value of the number that are less than or equal to 10.0.",High,26.378,None,0,"getting the average rainfall(total rainfall / total days), average humidity(total humidity/ total days), and rain days(the days with rain fall) of an area",HIGH,1,1,1,0,0,0,0,0,0,1,0,228.804,40.292,"[1, 1, 3]",1,36.153,"[0, 0, 0]",1,87.432,"[1, 1, 2]",1,47.96,"[ [0,-999], [0,0], [1,2] ]",1,19.208,11-18,0,NA,NA,NA,78.191,EASY,"The code is modium length, both variable and method names are easy to be understood,  just need to take some times to read through",216.76,NEITHER,NA,NA,1541
+SFMF-Java-CS701-2023-0027,R_1mFpYi8m4DdRFcB,WeatherSingle,OTHER 700,University courses only,NONE,VERY-LOW,2,1,Unsure,0,Unsure,0,Unsure,0,Unsure,0,94.958,The code prints out the average value for the given set of array. It calculates the sum at first then counts the number of elements and returns the average value,Medium,91.965,2,1,"The code is calculating the rainfall, humidity and rainy days.",LOW,0,0,1,0,0,0,0,0,0,0,1,152.035,315.835,"[1, 1, 1]",0,43.272,"[-3, -3, -3]",0,48.196,"[0, 0, 0]",0,22.037,"[ [0,0], [1,1], [1,-999] ]",0,28.56,11-18,0,NA,NA,NA,182.351,DIFFICULT,"The code is difficult because of following reason
+
+Unusual way of using for loops
+complex nested int list
+doesn't specify what are integer inputs meant for",144.034,MULTIPLE,Provides a better way to identify which tasks are performed by just analyzing the main function.,NA,1631
+SFMF-Java-CS701-2023-0033,R_20MslKKSM0UMCwK,WeatherSingle,SOFTENG 700,"Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language),Industry experience",LARGE,VERY-HIGH,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,48.112,Compute the average under 10 (include 10),High,26.845,2,1,Compute the average rainfall and average humidity and count rain days,HIGH,1,1,1,0,0,0,0,0,0,0,0,207.658,17.429,"[1, 1, 3]",1,70.018,"[0, 0, 0]",1,263.189,"[1, 1, 2]",1,118.715,"[ [0,0], [-1,-1], [1,2] ]",0,52.986,21-26,1,NA,NA,NA,155.666,VERY-EASY,"I want the choice ""Very easy"" and ""Very difficult"". Because if my understanding is correct, the previous question should be included an error option. If the previous question does not have any error option, my understanding should misunderstanding.",91.992,MULTIPLE,It shows clear steps and easy to understand what it does.,"If adding an extra option is better. Such as ""There is no my answer, and Input my answer"". Allow us to doubt the question.",1902
+SFMF-Java-CS701-2023-0038,R_3NzbItWfcworKcp,WeatherSingle,COMPSCI 700,"Self taught (writing code not just for course exercises),Open-source contributor",MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,406.654,"The function calculate the average number of an int array in which the number is lower or equal 10. Get an array of numbers(int), if the array has no element, stop the function, else get the sum of the numbers in the array and after calculate the average number of the element numbers lower or equal 10, and return the result.",Medium,26.856,2,1,"The function get an array which include the average rain full, averageHumidity and rainyDays data.",MEDIUM,1,1,1,0,0,0,0,0,0,0,1,48.401,121.01,"[1, 1, 3]",1,72.481,"[-3, -3, 0]",0,67.682,"[0, 0, 0]",0,182.137,"[ [0,0], [1,1], [1,-999] ]",0,32.599,21-26,1,NA,NA,NA,20.56,NEUTRAL,NA,63.793,MULTIPLE,"tell what each function dose clearly, it has better comprehension",NA,1829
+SFMF-Java-CS701-2023-0039,R_3PbjIx2bTtSV0ej,WeatherSingle,SOFTENG 700,Self taught (writing code not just for course exercises),MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,221.457,"The code is to calculate the average value of a int list, which only consider the value in the list is >0 and <=10。There are two function supplied to calculate the sum and count the number that meet the requirement.",High,112.705,None,0,"That code compute the average of daily rainwater, humidity and rainy days from a list of data.",MEDIUM,1,1,1,0,0,0,0,0,0,0,1,370.552,60.145,"[1, 1, 3]",1,111.968,"[-3, -3, 2]",0,19.487,"[1, 1, 2]",1,43.763,"[ [0,-999], [0,0], [1,2] ]",1,48.682,11-18,0,NA,NA,NA,27.731,NEUTRAL,NA,165.465,MULTIPLE,Version 2 has more functions; their names give more information to help to understand.,This truly tests my short-term memory.,1884
+SFMF-Java-CS701-2023-0040,R_2ZKZqRgAZw6kCQb,WeatherSingle,COMPSCI 700,University courses only,TINY,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,251.946,"The code is doing a calculation to get the mean, first we sum up all of the numbers, then we divide by the count of the number so that we can get the mean value of them when the number is less than or equal 10.",High,54.891,2,1,"Calculate the mean of rainy and humidity separately, and count the days are rainy, return average of rainy and humidity and days of rainy.",MEDIUM,1,1,1,0,0,0,0,0,0,0,0,29.481,55.314,"[1, 1, 1]",0,71.113,"[0, 0, 0]",1,96.387,"[1, 1, 2]",1,226.616,"[ [0,-999], [0,0], [1,2] ]",1,127.871,21-26,1,NA,NA,NA,12.597,NEUTRAL,NA,25.22,MULTIPLE,NA,NA,1691
+SFMF-Java-CS701-2023-0042,R_31aPN5HtEz1T2l8,WeatherSingle,COMPSCI 700,"Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language)",LARGE,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,77.661,Finding the mean of numbers that less or equals to 10 in an array.,High,37.308,Unsure,0,"Filtering invalid data from original data set. Then use valid data to compute the average rainfall, average humidity and rainfall days.",HIGH,1,1,1,1,0,1,0,0,0,0,0,234.125,71.179,"[1, 1, 3]",1,26.172,"[0, 0, 0]",1,121.458,"[1, 1, 2]",1,32.045,"[ [0,-999], [0,0], [1,2] ]",1,74.669,21-26,1,NA,NA,NA,36.839,VERY-EASY,Every step was well commented.,308.267,SINGLE,"More precise comments are easier to understand than methods' names. The namings of Version 2 are too abstract to understand. For example, it took more time to understand calling countPositive() is for counting rainy days.",The understanding of Version 1 may accelerate the understanding of Version 2. This may result in a different impression of Version 2 than Version 1. Is it possible to consider using similar logic but different scenarios to avoid this?,2070
+SFMF-Java-CS701-2023-0044,R_2AQMW7g6u3vpLdq,WeatherSingle,COMPSCI 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses)",SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, -1, 2, -2, 3, -3]",0,107.661,The program is used to calculate the average of 10 or less in a list of int types,High,52.008,None,0,"Calculate the average rainfall, average humidity, and number of rainy days for a given weather data",HIGH,1,1,1,0,0,0,0,0,0,0,0,208.545,192.967,"[1, 1, 3]",1,56.311,"[0, 0, 0]",1,27.744,"[1, 1, 2]",1,61.742,"[ [0,-999], [0,0], [1,2] ]",1,33.494,21-26,1,NA,NA,NA,10.626,NEUTRAL,NA,306.788,MULTIPLE,"Version 2 calculates through multiple small functions, and updates the mental model more quickly through function names compared to annotations. Each function only does one thing, which also helps improve comprehensibility.",Can provide more code examples for investigation,2061
+SFMF-Java-CS701-2023-0047,R_2WPjh5WZXK0PHpl,WeatherSingle,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language)",SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,293,"Define a 'WarmUp' class and calculate the average of values in the numbers array that are less than or equal to 10, using the 'main' method.",Medium,65.464,2,1,The primary purpose of this Java class is to process and analyze meteorological data over a certain period. It offers a method to analyze and extract key statistical information from a specific weather dataset.,MEDIUM,0,0,0,0,0,0,0,0,1,1,1,124.336,71.559,"[1, 1, 3]",1,42.436,"[0, 0, 0]",1,59.876,"[1, 1, 2]",1,188.336,"[ [0,-999], [0,0], [1,2] ]",1,49.764,21-26,1,NA,NA,NA,31.677,NEUTRAL,NA,170.665,MULTIPLE,"Because it have a top-level function 'processData', and including every main function.",NA,1788
+SFMF-Java-CS701-2023-0055,R_OPVt6bRzkq1Jb1L,WeatherSingle,COMPSCI 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language),Industry experience",NONE,LOW,2,1,"6
+7
+8
+9
+10",0,3,1,Unsure,0,Unsure,0,185.235,"We are trying to calculate the average/mean of numbers however, only the numbers which were less than or equal to 10 were considered.",High,45.819,2,1,"We are calculating averagerainfall, averagehumidity and averagedays it rains from a list of data of rain and humidity of different instances(can be of each day or each month).",MEDIUM,1,1,1,0,0,0,0,0,0,1,1,583.832,73.713,"[1, 1, 3]",1,13.916,"[0, 0, 0]",1,126.26,"[1, 1, 2]",1,60.778,"[ [0,0], [1,1], [1,-999] ]",0,27.37,21-26,1,NA,NA,NA,189.325,NEUTRAL,"I didnt have experience in Java so for me it was not easy to interpret the code due to not knowing about syntax and functions of Java . Since, I had experience in other different coding languages (python,c++, python played more role as it calls it's array as list), I was able to interpret what the code was trying to do and after reading the whole code I was able to interepret what the functions were trying to do.",160.014,SINGLE,one version took less effort as there were comments telling what it each section of code was trying to do and it felt like going in a sequence making it easier to comprehend.,NA,2155
+SFMF-Java-CS701-2023-0056,R_1gMaWWNJXHWSpna,WeatherSingle,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language)",MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,297.612,"One high-level function takes an array as the argument and returns a Double object. There are 2 following sub-functions called for getting the sum of the number in the array if the number is greater than or equal10, and also the count of the numbers greater or equal to 10. The first function returns the double object which is the result of the sum divided by the count getting from the sub-functions.",High,91.434,2,1,"The function uses the array list as the input and truncates and validates the data before getting the result. At last, the average rainfall, average humidity, and the number of rainy days are returned in an array.",HIGH,1,1,1,1,1,0,0,1,0,1,0,315.188,68.336,"[1, 1, 3]",1,120.714,"[0, 0, 0]",1,42.722,"[1, 1, 2]",1,52.476,"[ [0,-999], [0,0], [1,2] ]",1,58.449,21-26,1,NA,NA,NA,127.544,EASY,"Even though the code is not optimal for understanding, the statements/ word choice using the code makes the assimilation process more effective and efficient. The logic of the code is really straightforward accompanying with the comments.",151.419,SINGLE,"You do not have to update your mental model after each function is implemented. The process for getting the final result is really straightforward. However, in version 2, you have to check the different arguments in each function.","It is interesting that a large function for me is more effective to understand. Smaller functions actually take more effort. However, during our previous learning, we should assume that the small functions after breaking down should be better for developers to understand.",2307
+SFMF-Java-CS701-2023-0059,R_2TzxVhaPnXvff8q,WeatherSingle,COMPSCI 700,University courses only,SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,298.747,"The provided code analyzes an array of integers. It uses the main method to calculate and return the average of the numbers in the array that are less than or equal to 10. To do this, it employs the sumNumbers method to determine the sum of these numbers and the countNumbers method to determine how many of these numbers there are.",High,40.166,2,1,"The code processes a set of data, filtering for valid rainfall and humidity entries up to the END_OF_DATA marker. It calculates the average rainfall and humidity, counts the rainy days, and returns these statistics in an array.",MEDIUM,1,1,1,1,1,1,0,1,0,1,0,144.615,38.454,"[1, 1, 3]",1,26.507,"[0, 0, 0]",1,40.728,"[1, 1, 2]",1,218.206,"[ [0,-999], [0,0], [1,2] ]",1,48.538,21-26,1,NA,NA,NA,107.546,NEUTRAL,More detailed comments may better to understand and some variable names could be more descriptive.,285.222,MULTIPLE,"Version 2 breaks down the main method ""processData"" into some helper methods (truncateToEndOfData, getValidData, averageData, and countPositive). This makes more readable and would take less effort to understand.",This study is really interesting.,2030
+SFMF-Java-CS701-2023-0003,R_uyoppg2FiqT70v7,WeatherMultiple,SOFTENG 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language)",SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,41.028,"Finds the average of all numbers below or equal to 10 from a list of numbers, as if the other numbers didn't exist",High,20.195,2,1,Gets average rainfall and average humidity over a set of rainy days,MEDIUM,1,1,0,0,0,0,0,0,0,0,1,63.616,108.928,"[1, 1, 3]",1,5.239,"[0, 0, 0]",1,15.664,"[1, 1, 2]",1,16.5,"[ [0,-999], [0,0], [1,2] ]",1,15.216,33-41,1,NA,NA,NA,107.653,DIFFICULT,"It's intimidating with so many stacked arrow brackets and lots of jumping around. If I wasn't already familiar with the rainfall problem I would only have a very vague guess about what it does, though the double[] result definition goes a long way in figuring it out. Before that point though it's really hard, the names are really vague.",98.971,SINGLE,"The comments give context to what each block is doing, and all being in one big list rather than seperate functions means I'm not worried about if a function is re-used. I don't have to keep a block in my head after i've gone past it, and I don't need to read the code at all to get a high level understanding of the process.","I participated in the study in Compsci 747 in Semester 1 2023. I felt like I could rely on prior knowledge of the rainfall problem to do a lot of the heavy lifting in the exercise, but maybe that was the point :P",929
+SFMF-Java-CS701-2023-0009,R_12DtxloP9ykv49R,WeatherMultiple,COMPSCI 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language),Industry experience,Open-source contributor",SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,35.696,"It returns the average value of numbers with a value less than or equal to 10.0, given an array of integers.",High,29.796,2,1,"Validates input data and calculates the average rainfall, humidity, and the total number of days which had any rainfall.",HIGH,1,1,1,1,0,0,0,0,0,0,0,174.778,51.655,"[1, 1, 3]",1,11.49,"[0, 0, 0]",1,12.917,"[1, 1, 2]",1,32.383,"[ [0,-999], [0,0], [1,2] ]",1,28.657,33-41,1,NA,NA,NA,127.729,EASY,"The use of raw List<Integer> rather than a data class adds complexity and clouds context schema with design schema, particularly with the use of constants for indexes to data. Additionally the name ""RAINFALL_POS"" is not entirely descriptive, and requires a thorough understanding of the code to interpret, whereas a name such as ""RAINFALL_INDEX"" would be much easier and faster to understand.",125.904,SINGLE,"The process is entirely linear; hence a single function is all that is required. Additionally, the removal of function names and parameters and return types reduces clutter significantly, whilst the addition of easily parse-able comments eases  the speed of understanding code blocks.","Several questions ask for data that is passed to the `main()` function, however the provided code implements a `processData()` function, and no `main()` function is present.",1328
+SFMF-Java-CS701-2023-0015,R_3gO5ynZvVGxcgwI,WeatherMultiple,OTHER 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language),Industry experience",MEDIUM,MEDIUM,2,1,Unsure,0,3,1,false,1,"[1, 2, 3]",1,77.535,The code takes a list of integers. Add all the numbers greater than 10. Calculates the average of the sum.,Medium,33.601,2,1,The code takes in rainfall and humidity data. Validates the data.,LOW,0,0,0,1,0,0,0,0,0,0,0,334.337,43.254,"[1, 3, 1]",0,10.963,"[-3, -3, 2]",0,5.161,"[2, 2, -999]",0,5.599,"[ [-1,-1], [1,1], [1,2] ]",0,63.537,33-41,1,NA,NA,NA,51.392,VERY-DIFFICULT,I,106.1,SINGLE,Th comments in version 1 make the overall code easier to comprehend,NA,1488
+SFMF-Java-CS701-2023-0017,R_AopCqPXQPIGrl8R,WeatherMultiple,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises)",LARGE,HIGH,A NullPointerException will be thrown,0,"10
+9
+8
+7
+6",1,1,0,false,1,Unsure,0,61.048,"It is a program for calculating sums, and counting numbers. The program has three functions that each do one task.",Medium,138.036,2,1,"The program is designed to calculate average rainfall, average humidity and rainy days. The program is well structured and has individual functions to calculate the count and averages for better reading and maintainability.",MEDIUM,1,1,1,0,0,0,0,0,0,1,0,191.946,113.329,"[1, 1, 1]",0,51.688,"[0, 0, 0]",1,12.366,"[0, 0, 0]",0,17.438,"[ [0,0], [1,1], [1,-999] ]",0,38.057,33-41,1,NA,NA,NA,71.106,EASY,"The code is well structured, with clear variable names and a good flow of functions. All the functions are trying to do one task in them, and they are divided.",130.648,MULTIPLE,"Because version 2 has individual functions that are much easier to follow and understand compare to version one, which is one function and separated by comments.",NA,1404
+SFMF-Java-CS701-2023-0019,R_3EtXKx1MSf5y9Bg,WeatherMultiple,COMPSCI 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses)",MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,83.379,The double main() method used sumDouble() and countDouble() functions to return the mean of numbers less than or equal to 10.,High,28.914,2,1,"Produce average rainfall, average humidity and rainy days as a list, using a list of original data.",HIGH,1,1,1,0,0,0,0,0,1,0,0,124.315,155.026,"[1, 1, 3]",1,112.602,"[0, 0, 0]",1,190.534,"[1, 1, 2]",1,44.961,"[ [0,0], [-1,-1], [1,2] ]",0,22.205,55-63,0,NA,NA,NA,10.331,DIFFICULT,NA,12.028,SINGLE,NA,NA,1538
+SFMF-Java-CS701-2023-0020,R_2b3Ib4CnfzJYtLO,WeatherMultiple,OTHER 700,"Significant own projects (beyond just learning a language),Industry experience",LARGE,MEDIUM,2,1,"10
+9
+8
+7
+6",1,2,0,false,1,"[1, 2, 3]",1,124.074,There are two functions. One is to receive a list of numbers and calculate the sum of the input number. One is for calculating the total number of input number,High,22.829,2,1,It can tell us if a day whether raining and humidity.,MEDIUM,0,0,0,0,0,0,0,0,0,0,1,184.525,145.196,"[1, 1, 3]",1,32.901,"[0, 0, 0]",1,97.387,"[1, 1, -999]",0,163.561,"[ [0,0], [1,1], [1,-999] ]",0,28.865,33-41,1,NA,NA,NA,8.316,NEUTRAL,NA,146.013,MULTIPLE,"I already have some knowledge of Java, so I can understand the meaning of each function by its name. The interface may take some time to read and understand.",I think the comments and a function name that is easy to understand both are important.,1567
+SFMF-Java-CS701-2023-0024,R_2wt9uRHdMBsy7AW,WeatherMultiple,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language),Industry experience",NONE,VERY-LOW,2,1,Unsure,0,4,0,false,1,"[1, 2, 3]",1,64.384,The program return the average of the numbers by dividing the sum of the number by count of the numbers.,High,35.795,2,1,"The program return the values of average rainfall, average sunny days.",MEDIUM,1,0,0,0,0,0,0,0,0,0,1,114.267,58.149,"[1, 1, 1]",0,29.688,"[0, 0, 0]",1,23.736,"[1, 1, 2]",1,54.851,"[ [0,0], [1,1], [1,-999] ]",0,191.043,21-31,0,NA,NA,NA,49.614,NEUTRAL,NA,87.872,SINGLE,Because of the comments,NA,1495
+SFMF-Java-CS701-2023-0025,R_XhXDhEInofr7h0B,WeatherMultiple,COMPSCI 700,University courses only,SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,56.8,The main function takes an integer array of numbers and returns the average of the numbers under 10 in the array.,Medium,29.312,2,1,The code calculates the number of rainy days in a set of days and also the average number of rainy days in a set of days.,LOW,0,0,1,0,0,0,0,0,0,0,1,198.354,81.764,"[1, 1, 3]",1,31.859,"[-3, -3, 2]",0,24.134,"[1, 1, 2]",1,52.023,"[ [0,-999], [0,0], [1,2] ]",1,71.059,21-31,0,NA,NA,NA,138.202,EASY,"Easy to understand in terms when having the code to look at, however difficult to track multidimensional arraylists",176.364,SINGLE,"Version 1 would take less effort, even though there are no separate methods, the code is formatted in a way that is broken up and easier to read and get a sense of the what the overall program is doing without having to go up and down repeatedly.",NA,1490
+SFMF-Java-CS701-2023-0026,R_2735MVHnT6SMKrS,WeatherMultiple,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises)",SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,221.647,receive int[] argument and return the average of numbers which less than or equal to 10.,High,19.872,2,1,"first remove the invalid data, then calculate the average of rainfall and humidity ,and count the number of rainy days",MEDIUM,1,1,1,1,0,0,0,0,0,0,0,314.243,44.501,"[1, 1, 3]",1,29.469,"[0, 0, 0]",1,8.728,"[1, 1, 2]",1,80.874,"[ [0,-999], [0,0], [1,2] ]",1,40.293,33-41,1,NA,NA,NA,12.751,EASY,NA,165.566,SINGLE,useful and short comment help us to Building MM,NA,1546
+SFMF-Java-CS701-2023-0030,R_3Do2XZxbIIAjrst,WeatherMultiple,OTHER 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language)",SMALL,LOW,1,0,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,106.288,"main function that returns the average value of the list, second function(sumnumbers) add the value till greater or equal to 10 then return,
+last count how many elements are less or equal than ten",High,48.042,2,1,"the code that sorts the valid data first, then checks whether the data is updated or not and how much data are contained at least one compomenttocount, as the result, it returns the stats of humidity, average rainfall and rainy days",MEDIUM,1,0,1,1,0,0,0,0,0,0,1,288.12,365.027,"[1, 1, 3]",1,45.021,"[0, 0, 0]",1,24.927,"[2, 2, -999]",0,65.99,"[ [0,-999], [0,0], [1,2] ]",1,87.243,21-31,0,NA,NA,NA,16.665,NEUTRAL,NA,83.628,SINGLE,"because it has some docstrings so I will spend less time on it, I can think about that aspect and try to mind picture it easier.",Its interesting study especially front a few questions to refresh my knowledge and rebuild the mechanism of the java,1756
+SFMF-Java-CS701-2023-0032,R_2VgVC6oxlmNK9C1,WeatherMultiple,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises)",LARGE,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,171.36,"The main method receive an array as input, if the array is empty, then the main method will return null. if the array is not empty, it will calculate the sum of all numbers in the array that are less than equal to 10.0, and will also count the number of such numbers in that array, and then calculate the mean and return as double.",High,22.809,2,1,"Calculate the average rainfall possibility, average humidity and something I forget (number of sunny day?) from a set of weather records.",HIGH,1,1,0,0,0,0,0,0,0,0,1,209.928,182.14,"[3, 3, 3]",0,97.017,"[0, 0, 2]",0,66.871,"[1, 1, 2]",1,73.72,"[ [0,-999], [0,0], [1,2] ]",1,32.119,33-41,1,NA,NA,NA,29.525,NEUTRAL,NA,169.909,NEITHER,"The time-consuming task for me is to understand deep logic of the code, for example, what kinds of data should be regarded as ""valid"". In terms of this, I think neither of these two versions had explained enough.",NA,1605
+SFMF-Java-CS701-2023-0041,R_1pW3tble4TH5lo4,WeatherMultiple,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises)",MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,152.71,"The code defines a class named WarmUp which contains three methods aiming to work with an array of integers. 
+
+The main method calculates and returns the average of numbers in the array that are less than or equal to 10; 
+
+The sumNumbers method computes the sum of numbers in the array that are less than or equal to 10.",Medium,195.878,2,1,"The code in the Study class processes meteorological data represented as a list of lists, where each inner list contains daily readings for rainfall and humidity.",MEDIUM,0,0,0,0,0,0,0,0,1,1,1,131.254,129.068,"[1, 1, 3]",1,47.637,"[0, 0, 0]",1,46.261,"[1, 1, 2]",1,142.654,"[ [0,0], [-1,-1], [1,2] ]",0,148.978,33-41,1,NA,NA,NA,127.284,EASY,"It has descriptive method names like `truncateToEndOfData`, `getValidData`, `averageData`, and `countPositive`.",62.186,SINGLE,Because Version 1 have descriptive comments.,NA,1965
+SFMF-Java-CS701-2023-0060,R_2rZortjBoSK3NpI,WeatherMultiple,COMPSCI 700,"University courses only,Industry experience",SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,192.549,"codes have three method. sumNumbers return sum of numbers which <=10, countNumbers return count of numbers <=10. Then main method means return average value in the array. if the array is empty then return null.",Medium,39.022,2,1,"get a list of Mean humidity, mean rainfall and rainy days.",MEDIUM,1,1,1,0,0,0,0,0,0,0,0,391.066,300.28,"[1, 1, 3]",1,137.576,"[-3, -3, 0]",0,91.469,"[0, 0, 0]",0,154.27,"[ [0,0], [-1,-1], [1,2] ]",0,28.565,33-41,1,NA,NA,NA,16.31,DIFFICULT,NA,86.044,SINGLE,more clear comment,codes are too long. and the method name is hard to understand the meaning of the function.,2034
+SFMF-Java-CS701-2023-0061,R_3KUgdwswcNjkPIS,WeatherMultiple,OTHER 700,University courses only,MEDIUM,HIGH,1,0,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,141.656,"The main purpose is to get the average number of all the number. And the sum and count process will be write into two separate methods in the class and to reduce the length of the main method, increase the alterability and maintainability.",High,85.052,2,1,Compute the average of rainfall day and humidity day and get the amount of the rainy date from the original data.,MEDIUM,0,1,1,0,0,0,0,0,0,0,1,556.549,232.791,"[1, 1, 3]",1,126.894,"[0, 0, 0]",1,119.92,"[1, 1, 2]",1,92.053,"[ [0,0], [1,1], [1,-999] ]",0,45.249,21-31,0,NA,NA,NA,20.657,NEUTRAL,NA,187.685,NEITHER,"Version 1 although put all the methods in the same class, it provides the comment in the code so it is easy to understand. Version 2 separate the whole function into small method and the method name is clear. Therefore, I think both versions take the same effort.",NA,2061
+SFMF-Java-CS701-2023-0062,R_2BfmkwA5VbNkK7q,WeatherMultiple,COMPSCI 700,"Significant own projects (beyond just learning a language),Industry experience",LARGE,HIGH,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,335.532,"There are two functions to sum and count the numbers smaller than 10 in an array.
+In the main function, an integer array is received through a parameter, then the integer numbers in the array are calculated to sum the numbers that are smaller than 10. After the sum calculation, it is divided into the numbers less than 10 in the array that is calculated in a function.",Medium,35.197,2,1,"The class is about checking data related to rainfall, humidity, and rainy days. The processData function, which is a higher level function than other functions in the class, gets data for checking validation about date, rainfall, and humidity, calculating the average of the rainfall and humidity, and finding the number of rainy days in the list using functions.",MEDIUM,1,1,1,1,0,0,0,0,0,1,0,488.012,124.99,"[1, 1, 3]",1,87.39,"[-3, -3, 0]",0,127.581,"[1, 1, 2]",1,41.462,"[ [0,0], [-1,-1], [1,2] ]",0,40.286,33-41,1,NA,NA,NA,17.254,EASY,NA,135.648,SINGLE,"I should read all codes in the functions to know the purpose of the function, but there is a comment, then I can understand the function by reading the short comment above the function.","The survey is well structured, and the procedure is excellent in providing instructions and the percentage of the study completed on the top of the site. Additionally, it is a great point to check the level of understanding Java codes.",2477
+SFMF-Java-CS701-2023-0064,R_1PdXpa9BwfkRP0e,WeatherMultiple,SOFTENG 700,"Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language),Industry experience",SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,81.026,"The warmup class has three functions that perform various mathematics operations. There is one for averaging an array of integers, summing them, and providing a count of numbers in them if they meet certain conditions like <=10 e.g.",High,76.784,2,1,A class to perform weather data processing such as humidity and rainfall. The top function returns an arraylist of the processed data. The data for each type is checked multiple times to filter out any numbers that do not exceed 0,MEDIUM,0,0,0,0,0,1,0,1,0,0,1,80.713,88.601,"[1, 1, 1]",0,70.118,"[-3, -3, 0]",0,314.475,"[1, 1, 2]",1,64.127,"[ [0,-999], [0,0], [1,2] ]",1,71.829,9-19,0,NA,NA,NA,10.743,VERY-DIFFICULT,NA,81.201,SINGLE,The comments help illuminate the intention of the vague method names such as 'processData' and 'validData',NA,2296
+SFMF-Java-CS701-2023-0001,R_334pnhiDJiH8TUG,DaysSingle,COMPSCI 700,"Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language),Industry experience",TINY,MEDIUM,A NullPointerException will be thrown,0,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,63.439,The previous code tries to get the average of the sum of a list of numbers. It only sums numbers which is less or equal than 10,Medium,39.231,2,1,calculate the day from 1900.1.1 to the day that user inputs,LOW,0,0,1,1,1,1,0,0,0,0,0,21.414,24.303,1,1,12.352,60,1,15.469,121,0,22.907,45330,0,10.389,"1, FEBRUARY, 1900",1,71.802,"30, 50",1,59.54,NEUTRAL,"there's no comment on what the main function does, only some explanation on validating and adding up the date makes it harder to understand.",79.496,MULTIPLE,"Version 2 uses function to describe the main function, which is easier to understand as we can have an idea about what it is doing by looking at the function name",NA,781
+SFMF-Java-CS701-2023-0004,R_2wtU5FtSBenehua,DaysSingle,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language),Industry experience",LARGE,HIGH,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,75.412,"The program allows to calculate the average of the values in the list that are less than or equal to 10. It uses two helped functions, one which counts the number of values less than or equal to 10 and one that sums the same.",High,22.103,2,1,"This program checks if the entered date attributes (day, month, year) is valid. It does this by first checking the year, then the month, then the date and then checks the whole thing.",HIGH,1,0,0,0,0,0,1,0,1,0,0,51.741,23.467,365,0,20.558,425,0,15.604,Invalid date,1,101.853,45351,1,15.228,"2, FEBRUARY, 1900",0,34.565,30,0,8.393,VERY-EASY,NA,80.995,MULTIPLE,"The code has been broken down into smaller functions. The function names provide another layer of explanation which allows for the reader to build a stronger mental model of the code, which in turn makes it more efficient.",NA,752
+SFMF-Java-CS701-2023-0006,R_1CwI2LynTni8Db8,DaysSingle,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises),Industry experience",SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,140.008,The code calculates the average value of a list of numbers with values less than and equal to 10.,Medium,31.263,2,1,"The code checks the validity of the input values of days, months and years first, then check if it's the leap year, and last calculates the total days of the input year.",MEDIUM,1,0,1,0,0,0,0,1,1,0,0,132.326,18.519,365,0,39.881,Invalid date,0,8.342,Invalid date,1,36.286,45352,0,23.02,"1, FEBRUARY, 1900",1,57.731,"30, 50",1,13.817,NEUTRAL,NA,50.513,SINGLE,Because version 1 has comments to explain what the following code doing.,NA,994
+SFMF-Java-CS701-2023-0011,R_3gRRdcCKTXOAv44,DaysSingle,COMPSCI 700,"Self taught (writing code not just for course exercises),Significant own projects (beyond just learning a language)",MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,64.327,Calculates the average of the numbers less than 10 in the array.,High,59.748,2,1,"Count the number of days between the date of entry and January 1, 1900",HIGH,0,0,1,1,1,1,0,0,0,0,0,53.178,39.421,0,0,56.245,60,1,35.311,Invalid date,1,33.782,45352,0,106.087,"2, FEBRUARY, 1900",0,83.498,"30, 50",1,65.56,EASY,NA,143.047,MULTIPLE,The second one is much more logical and readable. We can know its function through its method name. And the sequence of the method also is logical.,NA,1162
+SFMF-Java-CS701-2023-0012,R_2Ua1b5OWu4XSWPi,DaysSingle,COMPSCI 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises),Industry experience",SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,101.519,The code was calculate the mean value of the numbers in a list where the number is lager than 10.,Medium,54.647,2,1,Count the total number of the days from 1900 to the given date.,HIGH,0,0,1,1,1,1,0,0,0,0,0,54.16,40.712,1,1,48.985,60,1,30.277,Invalid date,1,59.923,45351,1,75.088,"1, FEBRUARY, 1900",1,64.291,"30, 50",1,16.86,EASY,NA,28.443,SINGLE,NA,NA,1227
+SFMF-Java-CS701-2023-0023,R_271izGT9efdu62Y,DaysSingle,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises)",SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,132.326,"The program get a list of number, and wanna get the average of the number blower or equal to 10.0. The return type is double, and if the list is empty would return null.",High,36.191,2,1,"This program is get three valid integers as input, and got the days since from 1900, it will check the year is leap year or not, if it is then this year will have one day more than normal year. And the integers for the month is not start from 1 is start from 0.",HIGH,1,0,1,0,1,0,1,1,0,0,0,195.517,148.772,1,1,26.381,60,1,18.677,Invalid date,1,78.686,45350,0,25.92,"1, FEBRUARY, 1900",1,100.915,"30, 50",1,24.053,EASY,NA,62.874,MULTIPLE,NA,NA,1349
+SFMF-Java-CS701-2023-0029,R_TjcSF2CwDeEdqkF,DaysSingle,COMPSCI 700,University courses only,SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,308.607,return the average of the element which is less than or equal 10 in array,High,39.951,None,0,Calculating the number of days from 1900 to the specified date.,HIGH,0,0,1,1,1,1,0,0,0,0,0,62.299,68.37,1,1,61.417,60,1,171.471,121,0,54.833,45351,1,72.31,"31, JANUARY, 1900",0,49.007,"30, 50",1,52.928,VERY-EASY,"I didn't recognize the parameter ""day"" and the argument ""days"" at first.",156.04,MULTIPLE,"because version 2 refactor the code to different function,and for every function , it will take less time to read and understand and remember it return",awesome,1649
+SFMF-Java-CS701-2023-0031,R_OPvghF4Ppfb4Myl,DaysSingle,SOFTENG 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises)",SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,Unsure,0,135.352,"Select all the numbers which are greater than 10 from a list, then calculate their mean.",High,64.629,None,0,Compute how many days between 1900-1-1 with the input date.,HIGH,0,0,1,1,1,1,0,0,0,0,0,73.937,108.951,1,1,28.393,60,1,61.887,Invalid date,1,90.728,45351,1,24.796,"1, FEBRUARY, 1900",1,37.692,"29, 30, 41, 42, 49, 50",0,31.992,VERY-EASY,NA,100.491,MULTIPLE,Have clear structure,NA,1845
+SFMF-Java-CS701-2023-0036,R_24uAii2hRgLzpBo,DaysSingle,COMPSCI 700,University courses only,SMALL,MEDIUM,Unsure,0,"10
+9
+8
+7
+6",1,0,0,a > b,0,"[1, -1, 2, -2, 3, -3]",0,112.913,"The code that I have just read seems to be for a simple math calculation program that is able to calculate a sum of numbers, and also provide a count for list length.",Low,155.412,None,0,I think it is a program class used to determine whether user input for a date is valid. The methods checks that the entered date is possible within the selected month and year.,MEDIUM,1,0,0,0,0,0,0,0,0,0,0,109.191,117.038,Invalid date,0,110.891,Invalid date,0,5.764,Invalid date,1,66.615,45330,0,52.287,"2, FEBRUARY, 1900",0,66.848,"29, 30, 41, 42, 49, 50",0,103.369,NEUTRAL,The code does contain comments that give some indication as to what they do. But there is also a lot going on in the code.,73.1,MULTIPLE,Version 2 code is cleaner and grouping them into functions makes it easier to read and know what the method does.,I found answering this study to be somewhat tedious.,1715
+SFMF-Java-CS701-2023-0048,R_qIuUBEOXqmwTeYV,DaysSingle,COMPSCI 700,University courses only,MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,52.393,the main function will return the result of sum of all number smaller or equal to 10 in the array divide by the count of these numbers.,High,38.774,3,0,I guess it's about if the input date is a valid leap year date,LOW,1,0,0,0,0,0,0,1,1,0,0,17.672,114.476,1,1,423.681,62,0,70.895,120,0,157.265,45350,0,177.352,No input to main would produce 32,0,164.757,"29, 30, 41, 42, 49, 50",0,8.059,DIFFICULT,NA,28.446,MULTIPLE,NA,NA,2085
+SFMF-Java-CS701-2023-0049,R_33BUqnecLMRotZ4,DaysSingle,COMPSCI 700,"University courses only,Industry experience",SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,156.993,The code is about to calculate the mean of the all the values that is no more than 10 in an not null array.,High,28.142,2,1,The code is to calculate the count of days from the Year 1900 to the input date.,HIGH,0,0,1,1,1,1,0,0,0,0,0,68.506,198.184,1,1,55.692,60,1,47.441,Invalid date,1,41.854,45350,0,27.413,"1, FEBRUARY, 1900",1,91.738,"30, 50",1,267.59,EASY,"The question about is 1900 a leap year, i think my answer is wrong back then. because i am too rush to answer the question and also the statement of the boolean value is a bit complex, it uses too many ""!"".",115.475,SINGLE,The process of calculation is more clear and i dont have to go back to think about what does the code do if i put the called method into the main method.,"Although version 2 structure is seems like more organized than version 1, but from the comprehensibility perspective, i feel like version 2 is more easy to understand. However, i think if i need to modify any codes, it will be hard to modify, because it seems that many condition are hard code, like the days of every month and the change of february",2109
+SFMF-Java-CS701-2023-0050,R_10IwE3giCcNoip1,DaysSingle,COMPSCI 700,"Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises),Open-source contributor",SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,546.7,"First, check the length of a integer type array is assigned to integer type variable ""n"", and then, call two method. One is the sumNumber method get a double type as a return. The other is the count method, which return integer type.",Medium,82.521,2,1,"check the valid years, mouths and days. If true, a specific date converts days",MEDIUM,1,0,0,0,0,0,0,0,1,0,0,241.323,16.74,365,0,47.258,62,0,24.451,122,0,5.449,45351,1,299.639,"2, FEBRUARY, 1900",0,12.693,"29, 41, 49",0,19.055,VERY-DIFFICULT,NA,113.569,MULTIPLE,Since one function has one or two statements so that they are readable.,NA,2024
+SFMF-Java-CS701-2023-0051,R_3n2CDCYZxrdEL8r,DaysSingle,COMPSCI 700,University courses only,SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,255.779,"The program implemented the function that calculates the average number between 0-10 (not include 0) of a set of numbers, and return result as Double number",High,84.186,2,1,How many days went in a year,MEDIUM,0,0,1,0,0,0,0,0,1,0,0,156.954,105.615,1,1,94.448,60,1,32.311,122,0,114.586,45350,0,27.161,"1, FEBRUARY, 1900",1,120.039,"29, 41, 49",0,6.793,NEUTRAL,NA,32.3,SINGLE,Have comments,NA,2054
+SFMF-Java-CS701-2023-0052,R_RfUuyAWW0iFnQNX,DaysSingle,COMPSCI 700,University courses only,SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,29.012,"This code has two functions.
+sumNumbers:
+Sum all the number which is smaller or equal to 10 in the list.
+countNumbers:
+Return the count of the number which is <=10.
+Finally caudate the value of sum/count",High,31.509,2,1,"This code is aim to calculate the days from 1900 - input years. And calculate the days from January- input mounts. This code can identify if the year is leap year. If the year is leap year, it will do some thing like the days of February is 29 and the days of year is 366",HIGH,0,0,1,1,1,1,1,1,0,0,0,171.656,236.082,1,1,107.7,60,1,26.387,120,0,70.055,45352,0,35.841,"1, FEBRUARY, 1900",1,48.658,"30, 50",1,28.626,EASY,NA,126.921,MULTIPLE,I can understand what a function do directly through read the function name.,NA,1451
+SFMF-Java-CS701-2023-0053,R_6y4yJbQf79E37sl,DaysSingle,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises)",SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, -1, 2, -2, 3, -3]",0,239.171,"The ""sum"" method of this code is used to compute the total number of items in array ""numbers"" which are smaller than 10, and ""count"" method computes the length of items which are smaller than 10, and ""main"" method computes ""sum"" divides ""count"". It will return a double value of the average number of numbers smaller than 10.",High,85.806,None,0,This code is used to compute the same day before the year and the day before the month. It considers the leap year and makes judgments about whether the input date is valid.,MEDIUM,1,0,0,0,0,0,0,1,1,0,0,155.688,191.224,1,1,68.549,60,1,27.376,Invalid date,1,35.571,45352,0,20.764,"1, FEBRUARY, 1900",1,70.546,"30, 50",1,162.108,EASY,"At the first I saw this code I made mistakes of understanding its purpose. But after I finished questions above, I used some inputs to compute the outputs, I fixed problems and updated my mental model of this, and I feel like it's helpful to run the code and then understand its function.",226.33,MULTIPLE,I think the version 2 is better to understand because I think the clear function names help me update my mental model of this code.,Help me understand codes better.,2019
+SFMF-Java-CS701-2023-0054,R_w63ZSaGSZbtwiY1,DaysSingle,COMPSCI 700,University courses only,SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,149.151,"The class has three method. The main method takes an array of int and return a double, the return value appears to be the average value of positive numbers that is not greater than 10 in the array. The other two methods are low level methods that provide the main method with the sum and the count, respectively.",High,33.735,2,1,"The class contains one method that calculate the number of days from 1/1/1900 to the given date. The method takes three int inputs representing the given date and return a int that represents the days between the given date and 1/1/1900. This is done by first examine if the date is valid, then calculate the years and months and dates.",HIGH,1,0,1,1,1,1,1,0,0,0,0,187.95,109.769,1,1,204.484,61,0,56.175,121,0,67.133,45351,1,23.836,"1, FEBRUARY, 1900",1,52.201,"30, 50",1,90.65,EASY,"Variable names makes sense, making it easy to understand. However the function is doing two many things, could have encapsulate more concrete functions like validateDate().",160.385,MULTIPLE,"Version 2 has many small methods, so each method only do one thing, making it easy to understand. Also, the methods are arranged in top-to-bottom order, so I can get an understanding of the main purpose by only looking at the first method.",NA,2242
+SFMF-Java-CS701-2023-0005,R_3hF3LQ82vv3UqB1,DaysMultiple,COMPSCI 700,Industry experience,MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,82.47,"Given an array of doubles, as long as there are elements in the array, it returns the sum of all doubles under 10.0 divided by the count of all doubles under 10.0.",Medium,22.64,2,1,Returns a total of all the days between 1900 and a given date.,MEDIUM,0,0,1,1,1,1,0,0,0,0,0,18.945,53.358,1,1,49.517,60,1,19.149,Invalid date,1,38.488,45350,0,23.984,"1, FEBRUARY, 1900",1,98.197,"41, 75",1,14.565,VERY-EASY,NA,79.673,MULTIPLE,"Version 2 has better named variables and smaller functions (I am biased by Clean Code and this course, but I still think it's easier to understand).",I went through the survey quickly and would take more time to ensure my mental model was correct if I needed to know that code for work.,1009
+SFMF-Java-CS701-2023-0008,R_02nSuaVyxfE9A9H,DaysMultiple,COMPSCI 700,University courses only,SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,36.739,Calculate the average of numbers less than or equal to 10 in a set of numbers.,High,49.346,2,1,Check if it is a valid date.,HIGH,1,0,0,0,0,0,0,0,0,0,0,16.983,39.038,Invalid date,0,233.43,60,1,48.435,Invalid date,1,67.447,45350,0,63.138,"1, FEBRUARY, 1900",1,157.429,"41, 75",1,22.964,EASY,NA,18.44,MULTIPLE,NA,NA,1236
+SFMF-Java-CS701-2023-0013,R_3J9qDW0qVVwskFV,DaysMultiple,COMPSCI 700,University courses only,MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,124.122,calculate average value of all number in the list which  <=10,High,38.874,2,1,calculate the total days from 1900 to the input date.,HIGH,0,0,1,1,1,1,0,0,0,0,0,42.24,34.966,1,1,29.358,60,1,23.273,121,0,88.18,45350,0,32.198,"1, FEBRUARY, 1900",1,117.902,"41, 75",1,26.543,VERY-EASY,NA,29.573,MULTIPLE,NA,NA,1073
+SFMF-Java-CS701-2023-0014,R_1ZAMvtgF1BO9Esx,DaysMultiple,COMPSCI 700,University courses only,SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,102.823,"Loop through a list where the elements are number stored in Double format, and return Null if the list is empty; otherwise, return the average number of elements less or equal to 10.",High,24.026,2,1,"This code returns the days of input date from 1900, check if the date is valid or leap year, return ""Invalid dates"" if it's out of range.",MEDIUM,1,1,1,1,1,1,0,1,0,0,0,101.121,53.459,1,1,18.958,60,1,15.678,Invalid date,1,70.337,45351,1,12.007,"1, FEBRUARY, 1900",1,87.717,"41, 75",1,72.204,EASY,"Clearly structured, easy to follow the functions, but comments may be helpful for faster understanding.",222.938,MULTIPLE,"Version 1 has comments but everything is squeezed into the same function, Version 2 is more structured and organized.",NA,1401
+SFMF-Java-CS701-2023-0016,R_3gNHQYhtEgaYBq3,DaysMultiple,COMPSCI 700,University courses only,SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,107.616,"The code takes a list of numbers and then proceeds to calculate the mean value of the numbers in the list, however it excludes any numbers above 10 in the list. It does this by having a main method that calls to other methods called roughly sum and count which provide the summation of numbers below 10 and the count of how many numbers below 10 are in the list.",Medium,38.23,2,1,The code calculates how many total days until a certain date will come to pass. It makes sure that the date entered is valid.,MEDIUM,1,0,1,0,0,1,0,0,0,0,0,56.824,85.861,1,1,62.91,60,1,47.535,Invalid date,1,35.066,45352,0,14.165,"1, FEBRUARY, 1900",1,71.787,"41, 75",1,39.093,EASY,NA,125.487,SINGLE,"Version 1 is easy to follow as the code has a single method that goes through the problem step by step with comments to ensure I am following along. I spent most of my time in version 2 deciphering what methods were used where and what they did, this was not needed in version 1.",NA,1344
+SFMF-Java-CS701-2023-0022,R_1NCGfpv59TI3zSA,DaysMultiple,COMPSCI 700,University courses only,SMALL,VERY-LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,93.235,have two functions: get sum of the given numbers and get average of the given numbers,Medium,50.294,2,1,calculate the total passed days,LOW,0,0,1,0,0,0,0,0,0,0,0,34.97,31.597,1,1,12.39,61,0,43.49,Invalid date,1,71.146,45352,0,41.885,"2, FEBRUARY, 1900",0,62.099,"41, 48, 65, 75",0,14.758,DIFFICULT,NA,240.315,NEITHER,"If not considering other factors of the maintainability, just considering the understanding, I think they are the same because they have the same effective and efficient for me. The comment is equal to the fuction name.",I don't know why take this,1501
+SFMF-Java-CS701-2023-0028,R_11jRicVRPQIK50w,DaysMultiple,SOFTENG 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses)",SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,0,0,false,1,"[1, 2, 3]",1,188.468,the main function take a integer array as input. then use sumNumbers to calculate the sum of the numbers that are less than 10(can be 10 itself). then use countNumbers to calculate the  count of those number. then output the average of those number by return sum/count,Medium,40.068,Unsure,0,"the code take a date(year month day) as input. Check if the input is valid. if it is valid, then output the num of days between the input and 1900/1/1.",MEDIUM,1,0,1,1,1,1,0,0,0,0,0,151.371,129.617,1,1,34.91,60,1,35.695,Invalid date,1,55.39,45351,1,19.302,"1, FEBRUARY, 1900",1,54.435,"41, 75",1,89.188,EASY,NA,189.629,SINGLE,"my only experience with JAVA is CS718.
+for a new learner. 
+list all code in sequence helps me better understand the code.(which is V1)
+But this may against the knowlefge i'm currently learning from cs701.
+so maybe the conclusion will be different for a experienced user.",i'll say this study is the first study i complete without any reward......,1774
+SFMF-Java-CS701-2023-0034,R_3GDkuUqqs4P5VD3,DaysMultiple,COMPSCI 700,Industry experience,SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,true,0,"[1, 2, 3]",1,142.818,Calculate the average value of given numbers which are not bigher than 10,Medium,44.21,2,1,"Calculate the total days from 1900 to the given date (day, month, year)",MEDIUM,0,0,1,1,1,1,0,0,0,0,0,70.039,55.309,1,1,157.225,60,1,21.412,Invalid date,1,114.288,45351,1,32.028,"1, FEBRUARY, 1900",1,112.733,"41, 65, 75",0,15.164,EASY,NA,53.98,MULTIPLE,NA,No,1623
+SFMF-Java-CS701-2023-0035,R_2RTScLojZSjP2N8,DaysMultiple,SOFTENG 700,Self taught (writing code not just for course exercises),LARGE,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,92.372,"A class that contains three methods. 
+The main method is the entry of program. The other two methods are for manipulating numbers.",High,40.59,None,0,"The total number of days is calculated after entering a specific Year, Month, Day",MEDIUM,0,0,1,0,0,0,0,0,0,0,0,85.397,138.441,1,1,41.979,60,1,34.126,Invalid date,1,46.671,45352,0,33.731,"1, FEBRUARY, 1900",1,115.981,"41, 75",1,60.647,EASY,The program is decomposed into many functions with one purpose and meaningful names.,76.184,SINGLE,Easy to follow the logic and have readable comments.,Glad to participate.,1585
+SFMF-Java-CS701-2023-0037,R_3LaHE9WpZRxJfFg,DaysMultiple,COMPSCI 700,"University courses only,Non university courses (formal exercises, e.g. high school, on-line courses),Self taught (writing code not just for course exercises)",LARGE,HIGH,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,161.84,"Have three metod, first one is calculate sum/count.
+Anout thers, one is calculate sum value of a list (only elements smaller then 10.0).
+other is   calculate total numbers in the  list (only elements smaller then 10.0).",High,28.176,2,1,Check how many days between input date and first date,MEDIUM,0,0,1,1,0,1,0,0,0,0,0,55.946,42.382,0,0,37.733,60,1,24.177,Invalid date,1,37.368,45351,1,15.769,"2, FEBRUARY, 1900",0,183.569,"41, 75",1,34.089,NEUTRAL,NA,184.442,SINGLE,"some comments are meaningless, like it the year valid. but some comments on loop is useful for me. I can quickly understand the loop's means.",NA,1677
+SFMF-Java-CS701-2023-0043,R_URpDU85qOEVQHux,DaysMultiple,COMPSCI 700,University courses only,SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,55.565,The code calculates the average value based on a given array of numbers.,Medium,75.078,None,0,"The code calculates the total days from year 1900 to a specified date. This date is first checked if it is a valid date. If it is not, then the program just prints ""Invalid date"" instead.",MEDIUM,1,1,1,1,1,1,0,0,0,0,0,75.155,119.733,Invalid date,0,117.061,60,1,40.147,121,0,90.486,45351,1,34.348,"1, FEBRUARY, 1900",1,69.515,"41, 48, 65, 75",0,13.449,NEUTRAL,NA,102.075,SINGLE,"Code in version 1 is broken into smaller methods, with clear names. This makes it easier to know which code is supposed to do what faster.",NA,2104
+SFMF-Java-CS701-2023-0045,R_1IKJEPl4Ce7cilu,DaysMultiple,SOFTENG 700,"University courses only,Self taught (writing code not just for course exercises)",MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,181.305,"Given a list of values return a Double value which is the average of this list, only deal with the number that <= 10.",High,47.319,None,0,"Check whether the input date is valid, it will calculate the number of days between the date and the zero_year: 1900 if so, otherwise return: ���invalid date���.",HIGH,1,1,1,1,1,1,0,0,0,0,0,161.624,66.797,1,1,116.282,60,1,52.971,Invalid date,1,100.663,45351,1,55.626,"1, FEBRUARY, 1900",1,56.212,"41, 75",1,9.97,EASY,NA,291.67,SINGLE,"Just a small pieces of code, so simply I can quiet easy to understand if just use a ‘main’ method rather than more of it (in this situation the knowledge in mental model is sufficient enough to get the idea of designer)",Some of students enrolled in cs747 2023s1 also in 701. They did the similar survey so it will be better for the research if consider above factor.,1851
+SFMF-Java-CS701-2023-0046,R_1lmdd2cDHJqJvV9,DaysMultiple,COMPSCI 700,"University courses only,Self taught (writing code not just for course exercises)",MEDIUM,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,172.091,Calculate the mean of the numbers that are smaller than 10. Calculate the sum of these numbers first and then divide the sum by the count of the numbers.,High,17.291,2,1,"Calculate the total days has past since the zero year 1900. Also need to check if the data is a valid date. Calculate the days from total days of past years, months, and days. The special case need to check is for the Feb month, which has different days depending on if the year is leap year.",HIGH,1,0,1,1,1,1,1,1,0,0,0,159.858,110.419,1,1,114.487,60,1,40.967,Invalid date,1,52.37,45351,1,24.799,"1, FEBRUARY, 1900",1,93.168,"41, 75",1,157.736,EASY,The level and structure of the code is good and easy to understand layer by layer. However the main class name 'Study' is not helpful for understand what the code is trying to do.,61.152,SINGLE,Version 1 has detailed comments that helps the viewer to understand the code.,It's very interesting and illustrative.,2010
+SFMF-Java-CS701-2023-0057,R_2YP3FBtLQjSc75R,DaysMultiple,COMPSCI 700,University courses only,SMALL,MEDIUM,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,108.402,"calculate the mean value of the number in the list, that the number is less than or equal to 10.",High,15.58,2,1,Calculate the total number of days from 1900 to the target date,HIGH,0,0,1,1,1,1,0,0,0,0,0,68.674,132.038,1,1,40.642,60,1,23.177,121,0,56.717,45351,1,63.348,"1, FEBRUARY, 1900",1,88.956,"41, 75",1,641.101,EASY,"I think the reasons why this code is easy to understand are as follows:
+1. A meaningful name makes it easy to understand the code after the first reading of the name, thereby reducing access to ER when encountering it again, accelerating the efficiency of the assimilation process, and increasing comprehensibility.
+2. With multiple abstraction layers, understanding the top level can reduce access to lower levels(ER), accelerate the efficiency of the assimilation process, and increase comprehensibility.
+3. Small functions and doing only one thing can help you understand functions faster, and when you first understand the function's function, you will remember it when you encounter it again, thereby improving the efficiency and effectiveness of understanding and increasing comprehensibility.",229.762,NEITHER,"Version 1 only uses one main function and annotations, which explain the purpose of each part well, so it is helpful for understanding.
+Version 2 is divided into many small functions, each of which only does one thing and has a meaningful name, which is also helpful for understanding.
+Although I think it's the same amount, it's actually impossible to quantify which version requires more effort.","This research is great!
+I hope there can be more such research.",2045
+SFMF-Java-CS701-2023-0058,R_3KDzj38wplHpbk2,DaysMultiple,OTHER 700,University courses only,TINY,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,321.173,"The code basically calculates the average number: the sum of an array of doubles (less than 10.0) divided by the count of doubles that are less than 10.0. If there is no such average, return null.",Medium,53.737,2,1,"The code checks whether a certain date is a valid date by checking day, month, year mutually.",MEDIUM,1,0,0,0,0,0,0,0,0,0,0,130.263,98.883,365,0,212.772,61,0,58.652,120,0,120.488,45330,0,104.093,"3, FEBRUARY, 1900",0,86.779,"41, 75",1,121.754,NEUTRAL,The functions are easy to find below when the function is called but there are so many individual functions are listed and it's a bit confusing.,48.725,SINGLE,Definitely version 1 is easier to understand since it has comments and it's quite straight forward.,Please give absolute answers perhaps especially for ambiguous discussion papers.,2030
+SFMF-Java-CS701-2023-0063,R_3lE6zf3G6awmr2u,DaysMultiple,COMPSCI 700,University courses only,SMALL,LOW,2,1,"10
+9
+8
+7
+6",1,3,1,false,1,"[1, 2, 3]",1,761.29,"There are three functions in class “WarmUp”.
+main function: judge the length of numbers, if it less or equal than 0, the result is null, if not, call the sumNumbers method to count the numbers in the array that are less than or equal to 10.0.
+sunNumbers function: sum initial value is 0, traverse the number in the array, as long as it is greater than 10, the sum will be increased by one.
+countNumbers: count initial value is 0, traverse the number in the array, as long as it is greater than 10, the count will be increased by one.",Medium,88.434,2,1,"Used to verify the validity of a given date (including year, month, day) and calculate the total number of days from the start date (January 1, 1900). It returns the number of days from the start date for valid dates and an error message for invalid dates by checking for leap year rules, number of days in the month, etc.",HIGH,1,1,1,1,1,1,1,0,0,0,0,519.862,13.503,1,1,63.54,61,0,48.733,122,0,10.856,45352,0,7.86,"2, FEBRUARY, 1900",0,11.8,"41, 65, 75",0,80.04,NEUTRAL,I think it is more troublesome if you only rely on your eyes without using ide.,118.655,SINGLE,You can immediately know what this function is doing.,NA,2051
